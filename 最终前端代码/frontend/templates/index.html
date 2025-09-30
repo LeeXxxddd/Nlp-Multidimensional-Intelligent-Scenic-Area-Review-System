@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>景区评论质量智能评估系统</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0;
+        }
+        
+        .feature-card {
+            transition: transform 0.3s ease;
+            padding: 30px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            margin: 10px;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .upload-area {
+            border: 2px dashed #007bff;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            background-color: #f8f9fa;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .upload-area:hover {
+            background-color: #e9ecef;
+            border-color: #0056b3;
+        }
+        
+        .upload-area.dragover {
+            background-color: #e3f2fd;
+            border-color: #2196f3;
+        }
+        
+        .progress-container {
+            display: none;
+            margin-top: 20px;
+        }
+        
+        .result-card {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: none;
+        }
+        
+        .metric-card {
+            background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .metric-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .metric-card h3 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .quality-badge {
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .quality-excellent { background-color: #28a745; color: white; }
+        .quality-good { background-color: #17a2b8; color: white; }
+        .quality-average { background-color: #ffc107; color: black; }
+        .quality-poor { background-color: #dc3545; color: white; }
+        
+        .chart-container {
+            height: 400px;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .loading-spinner {
+            display: none;
+        }
+        
+        .evaluation-result {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .quality-meter {
+            width: 100%;
+            height: 20px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        
+        .quality-meter-fill {
+            height: 100%;
+            transition: width 0.3s ease;
+        }
+        
+        .problem-item {
+            padding: 10px;
+            margin: 5px 0;
+            border-left: 4px solid #dc3545;
+            background: #f8d7da;
+            border-radius: 5px;
+        }
+        
+        .success-item {
+            padding: 10px;
+            margin: 5px 0;
+            border-left: 4px solid #28a745;
+            background: #d4edda;
+            border-radius: 5px;
+        }
+        
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .btn-custom {
+            border-radius: 25px;
+            padding: 10px 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-custom:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-brain"></i> 评论质量评估系统
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#upload">数据上传</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#analysis">质量分析</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#evaluate">单条评估</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 头部介绍 -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 mb-4">景区评论质量智能评估系统</h1>
+            <p class="lead mb-4">基于自然语言处理的评论质量评估，助力提升旅游信息可信度</p>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="fas fa-search fa-3x mb-3"></i>
+                        <h5>智能检测</h5>
+                        <p>自动识别重复、相似和垃圾评论</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="fas fa-chart-line fa-3x mb-3"></i>
+                        <h5>质量评估</h5>
+                        <p>多维度评估评论质量和信息价值</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="fas fa-eye fa-3x mb-3"></i>
+                        <h5>可视化分析</h5>
+                        <p>直观展示分析结果和数据洞察</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主要内容 -->
+    <div class="container my-5">
+        <!-- 文件上传区域 -->
+        <section id="upload" class="mb-5">
+            <h2 class="text-center mb-4">数据上传</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="upload-area" onclick="document.getElementById('fileInput').click()">
+                        <i class="fas fa-cloud-upload-alt fa-3x mb-3 text-primary"></i>
+                        <h5>点击上传文件或拖拽文件到此处</h5>
+                        <p class="text-muted">支持CSV和TXT格式文件（最大50MB）</p>
+                        <input type="file" id="fileInput" accept=".csv,.txt" style="display: none;">
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
+                        </div>
+                        <p class="text-center mt-2">正在上传文件...</p>
+                    </div>
+                    <div id="uploadResult" class="mt-3"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 分析结果区域 -->
+        <section id="analysis" class="mb-5" style="display: none;">
+            <h2 class="text-center mb-4">分析结果</h2>
+            
+            <!-- 数据概览 -->
+            <div class="row" id="metricsRow">
+                <!-- 动态生成指标卡片 -->
+            </div>
+
+            <!-- 可视化图表 -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card result-card">
+                        <div class="card-header bg-primary text-white">
+                            <h5><i class="fas fa-chart-pie"></i> 数据可视化</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="chartContainer" class="chart-container">
+                                <div class="loading-spinner">
+                                    <div class="spinner-border text-primary" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                    <p class="mt-2">正在生成图表...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 详细分析结果 -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card result-card">
+                        <div class="card-header bg-success text-white">
+                            <h5><i class="fas fa-list"></i> 质量分析详情</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="qualityDetails">
+                                <div class="text-center">
+                                    <div class="spinner-border text-success" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                    <p class="mt-2">正在分析质量数据...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card result-card">
+                        <div class="card-header bg-warning text-dark">
+                            <h5><i class="fas fa-exclamation-triangle"></i> 问题检测</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="problemDetection">
+                                <div class="text-center">
+                                    <div class="spinner-border text-warning" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                    <p class="mt-2">正在检测问题...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 操作按钮 -->
+            <div class="text-center mt-4">
+                <button class="btn btn-primary btn-custom me-2" onclick="exportReport()">
+                    <i class="fas fa-download"></i> 导出报告
+                </button>
+                <button class="btn btn-secondary btn-custom" onclick="resetAnalysis()">
+                    <i class="fas fa-refresh"></i> 重新分析
+                </button>
+            </div>
+        </section>
+
+        <!-- 单条评论评估 -->
+        <section id="evaluate" class="mb-5">
+            <h2 class="text-center mb-4">单条评论质量评估</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label for="reviewText" class="form-label">评论内容</label>
+                                <textarea class="form-control" id="reviewText" rows="4" 
+                                         placeholder="请输入要评估的评论内容..."></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="referenceTexts" class="form-label">参考文本（可选）</label>
+                                <textarea class="form-control" id="referenceTexts" rows="3"
+                                         placeholder="输入参考评论（每行一条，用于相似度对比）..."></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-success btn-custom" onclick="evaluateSingleReview()">
+                                    <i class="fas fa-search"></i> 开始评估
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="evaluationResult" class="mt-4" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 底部 -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 景区评论质量智能评估系统 | 基于自然语言处理技术</p>
+            <p class="mb-0 small">Powered by Flask, Bootstrap & Chart.js</p>
+        </div>
+    </footer>
+
+    <!-- 加载模态框 -->
+    <div class="modal fade" id="loadingModal" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center p-4">
+                    <div class="spinner-border text-primary mb-3" role="status" style="width: 3rem; height: 3rem;">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <h5>正在处理中</h5>
+                    <p class="text-muted mb-0">请稍候，系统正在分析评论数据...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    
+    <script>
+        let currentFilePath = null;
+        let analysisResult = null;
+        let loadingModal = null;
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            loadingModal = new bootstrap.Modal(document.getElementById('loadingModal'));
+            
+            // 文件上传处理
+            document.getElementById('fileInput').addEventListener('change', handleFileUpload);
+            
+            // 拖拽上传
+            const uploadArea = document.querySelector('.upload-area');
+            
+            uploadArea.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadArea.classList.add('dragover');
+            });
+            
+            uploadArea.addEventListener('dragleave', (e) => {
+                e.preventDefault();
+                uploadArea.classList.remove('dragover');
+            });
+            
+            uploadArea.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadArea.classList.remove('dragover');
+                const files = e.dataTransfer.files;
+                if (files.length > 0) {
+                    handleFileUpload({target: {files: files}});
+                }
+            });
+        });
+
+        // 文件上传处理
+        async function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            // 文件大小检查（50MB限制）
+            if (file.size > 50 * 1024 * 1024) {
+                alert('文件大小不能超过50MB');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            showProgress(true);
+            
+            try {
+                const response = await fetch('/api/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+                
+                if (response.ok) {
+                    currentFilePath = result.file_path;
+                    showUploadSuccess(result);
+                    // 自动开始分析
+                    setTimeout(() => {
+                        analyzeReviews();
+                    }, 1000);
+                } else {
+                    showUploadError(result.error);
+                }
+            } catch (error) {
+                showUploadError('上传失败: ' + error.message);
+            } finally {
+                showProgress(false);
+            }
+        }
+
+        // 显示上传进度
+        function showProgress(show) {
+            const progressContainer = document.querySelector('.progress-container');
+            const progressBar = document.querySelector('.progress-bar');
+            
+            if (show) {
+                progressContainer.style.display = 'block';
+                // 模拟进度
+                let progress = 0;
+                const interval = setInterval(() => {
+                    progress += Math.random() * 30;
+                    if (progress > 90) progress = 90;
+                    progressBar.style.width = progress + '%';
+                }, 200);
+                
+                setTimeout(() => {
+                    clearInterval(interval);
+                    progressBar.style.width = '100%';
+                }, 2000);
+            } else {
+                setTimeout(() => {
+                    progressContainer.style.display = 'none';
+                    progressBar.style.width = '0%';
+                }, 500);
+            }
+        }
+
+        // 显示上传成功
+        function showUploadSuccess(result) {
+            const uploadResult = document.getElementById('uploadResult');
+            uploadResult.innerHTML = `
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <i class="fas fa-check-circle"></i>
+                    <strong>上传成功！</strong> 文件 "${result.filename}" 已上传，包含 ${result.review_count} 条评论
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            `;
+        }
+
+        // 显示上传错误
+        function showUploadError(error) {
+            const uploadResult = document.getElementById('uploadResult');
+            uploadResult.innerHTML = `
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <strong>上传失败！</strong> ${error}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            `;
+        }
+
+        // 分析评论
+        async function analyzeReviews() {
+            if (!currentFilePath) {
+                alert('请先上传文件');
+                return;
+            }
+
+            loadingModal.show();
+            
+            try {
+                const response = await fetch('/api/analyze', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        file_path: currentFilePath
+                    })
+                });
+
+                const result = await response.json();
+                
+                if (response.ok) {
+                    analysisResult = result;
+                    displayAnalysisResults(result);
+                    await generateVisualization(result);
+                } else {
+                    alert('分析失败: ' + result.error);
+                }
+            } catch (error) {
+                alert('分析失败: ' + error.message);
+            } finally {
+                loadingModal.hide();
+            }
+        }
+
+        // 显示分析结果
+        function displayAnalysisResults(result) {
+            // 显示分析区域
+            document.getElementById('analysis').style.display = 'block';
+            
+            // 滚动到分析结果
+            document.getElementById('analysis').scrollIntoView({ behavior: 'smooth' });
+
+            // 生成指标卡片
+            const metricsRow = document.getElementById('metricsRow');
+            const effectiveRate = ((result.effective_reviews / result.total_reviews) * 100).toFixed(1);
+            const problemCount = result.duplicate_count + result.similar_count + result.ad_count;
+            
+            metricsRow.innerHTML = `
+                <div class="col-md-3">
+                    <div class="metric-card">
+                        <h3>${result.total_reviews}</h3>
+                        <p><i class="fas fa-comments"></i> 总评论数</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="metric-card">
+                        <h3>${result.effective_reviews}</h3>
+                        <p><i class="fas fa-thumbs-up"></i> 有效评论数</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="metric-card">
+                        <h3>${problemCount}</h3>
+                        <p><i class="fas fa-exclamation-triangle"></i> 问题评论数</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="metric-card">
+                        <h3>${effectiveRate}%</h3>
+                        <p><i class="fas fa-chart-line"></i> 有效率</p>
+                    </div>
+                </div>
+            `;
+
+            // 显示质量分析详情
+            displayQualityDetails(result);
+            
+            // 显示问题检测结果
+            displayProblemDetection(result);
+        }
+
+        // 显示质量分析详情
+        function displayQualityDetails(result) {
+            const qualityDetails = document.getElementById('qualityDetails');
+            const distribution = result.quality_distribution;
+            
+            let html = '<h6 class="mb-3">质量分布</h6>';
+            
+            Object.entries(distribution).forEach(([level, count]) => {
+                const percentage = result.effective_reviews > 0 ? 
+                    ((count / result.effective_reviews) * 100).toFixed(1) : 0;
+                const badgeClass = {
+                    '优秀': 'quality-excellent',
+                    '良好': 'quality-good', 
+                    '一般': 'quality-average',
+                    '较差': 'quality-poor'
+                }[level];
+                
+                html += `
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="quality-badge ${badgeClass}">${level}</span>
+                        <div>
+                            <span class="me-2">${count} (${percentage}%)</span>
+                            <div class="quality-meter" style="width: 100px; display: inline-block;">
+                                <div class="quality-meter-fill ${badgeClass}" style="width: ${percentage}%"></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            // 显示示例高质量评论
+            if (result.quality_results && result.quality_results.length > 0) {
+                const highQualityReviews = result.quality_results
+                    .filter(r => r.quality.quality_level === '优秀')
+                    .slice(0, 3);
+                
+                if (highQualityReviews.length > 0) {
+                    html += '<h6 class="mt-4 mb-3">高质量评论示例</h6>';
+                    highQualityReviews.forEach((item, index) => {
+                        html += `
+                            <div class="success-item">
+                                <small><strong>评论 ${index + 1}:</strong> ${item.review.substring(0, 100)}...</small>
+                                <br><small class="text-muted">质量得分: ${item.quality.total_score.toFixed(2)}</small>
+                            </div>
+                        `;
+                    });
+                }
+            }
+
+            qualityDetails.innerHTML = html;
+        }
+
+        // 显示问题检测结果
+        function displayProblemDetection(result) {
+            const problemDetection = document.getElementById('problemDetection');
+            let html = '<h6 class="mb-3">检测到的问题</h6>';
+
+            if (result.duplicate_count > 0) {
+                html += `
+                    <div class="problem-item">
+                        <i class="fas fa-copy"></i> 
+                        <strong>重复评论:</strong> ${result.duplicate_count} 条
+                    </div>
+                `;
+            }
+
+            if (result.similar_count > 0) {
+                html += `
+                    <div class="problem-item">
+                        <i class="fas fa-clone"></i> 
+                        <strong>相似评论:</strong> ${result.similar_count} 条
+                    </div>
+                `;
+            }
+
+            if (result.ad_count > 0) {
+                html += `
+                    <div class="problem-item">
+                        <i class="fas fa-ad"></i> 
+                        <strong>广告评论:</strong> ${result.ad_count} 条
+                    </div>
+                `;
+            }
+
+            if (result.clusters && result.clusters.length > 0) {
+                html += `
+                    <div class="problem-item">
+                        <i class="fas fa-layer-group"></i> 
+                        <strong>相似聚类:</strong> ${result.clusters.length} 个群组
+                    </div>
+                `;
+            }
+
+            if (result.duplicate_count === 0 && result.similar_count === 0 && result.ad_count === 0) {
+                html += `
+                    <div class="success-item">
+                        <i class="fas fa-check-circle"></i> 
+                        <strong>太棒了！</strong> 未检测到明显问题
+                    </div>
+                `;
+            }
+
+            // 添加建议
+            html += '<h6 class="mt-4 mb-3">优化建议</h6>';
+            const suggestions = [];
+            
+            if (result.duplicate_count > 0) {
+                suggestions.push('建议过滤重复评论以提高数据质量');
+            }
+            if (result.similar_count > 0) {
+                suggestions.push('关注相似度过高的评论，可能存在刷评行为');
+            }
+            if (result.ad_count > 0) {
+                suggestions.push('建立广告评论过滤机制');
+            }
+            if (suggestions.length === 0) {
+                suggestions.push('数据质量良好，建议继续监控');
+            }
+
+            suggestions.forEach(suggestion => {
+                html += `
+                    <div class="alert alert-info py-2">
+                        <i class="fas fa-lightbulb"></i> ${suggestion}
+                    </div>
+                `;
+            });
+
+            problemDetection.innerHTML = html;
+        }
+
+        // 生成可视化图表
+        async function generateVisualization(result) {
+            try {
+                const response = await fetch('/api/visualize', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        analysis_result: result
+                    })
+                });
+
+                const vizResult = await response.json();
+                
+                if (response.ok) {
+                    const chartContainer = document.getElementById('chartContainer');
+                    chartContainer.innerHTML = `<img src="${vizResult.chart_image}" class="img-fluid" alt="分析图表">`;
+                } else {
+                    console.error('可视化生成失败:', vizResult.error);
+                    // 使用Chart.js创建备用图表
+                    createFallbackCharts(result);
+                }
+            } catch (error) {
+                console.error('可视化请求失败:', error);
+                createFallbackCharts(result);
+            }
+        }
+
+        // 创建备用图表
+        function createFallbackCharts(result) {
+            const chartContainer = document.getElementById('chartContainer');
+            chartContainer.innerHTML = '<canvas id="summaryChart" width="400" height="200"></canvas>';
+            
+            const ctx = document.getElementById('summaryChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['有效评论', '重复评论', '相似评论', '广告评论'],
+                    datasets: [{
+                        data: [
+                            result.effective_reviews,
+                            result.duplicate_count,
+                            result.similar_count,
+                            result.ad_count
+                        ],
+                        backgroundColor: [
+                            '#28a745',
+                            '#ffc107', 
+                            '#17a2b8',
+                            '#dc3545'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'right'
+                        }
+                    }
+                }
+            });
+        }
+
+		// 评估单条评论
+		async function evaluateSingleReview() {
+			const reviewText = document.getElementById('reviewText').value.trim();
+			if (!reviewText) {
+				alert('请输入要评估的评论内容');
+				return;
+			}
+
+			const referenceTexts = document.getElementById('referenceTexts').value.trim();
+
+			try {
+				loadingModal.show();
+
+				const response = await fetch('/api/quality_evaluate', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({
+						review_text: reviewText,
+						reference_texts: referenceTexts
+							? referenceTexts.split('\n').filter(line => line.trim())
+							: []
+					})
+				});
+
+				const result = await response.json();
+
+			if (response.ok && result.quality_assessment) {
+				displaySingleEvaluationResult(result);
+			} else {
+				alert('评估失败: ' + (result.error || '未知错误'));
+			}
+
+			} catch (error) {
+				alert('请求错误: ' + error.message);
+			} finally {
+				loadingModal.hide();
+			}
+		}
+
+
+
+        // 显示单条评论评估结果
+        function displaySingleEvaluationResult(result) {
+            const evaluationResult = document.getElementById('evaluationResult');
+            
+            const quality = result.quality_assessment;
+            const problems = result.problem_detection;
+            
+            let qualityColor = 'success';
+            if (quality.total_score < 0.3) qualityColor = 'danger';
+            else if (quality.total_score < 0.6) qualityColor = 'warning';
+            else if (quality.total_score < 0.8) qualityColor = 'info';
+
+            let html = `
+                <div class="evaluation-result">
+                    <h5 class="mb-4"><i class="fas fa-search"></i> 评估结果</h5>
+                    
+                    <!-- 质量得分 -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card border-${qualityColor}">
+                                <div class="card-header bg-${qualityColor} text-white">
+                                    <h6 class="mb-0"><i class="fas fa-star"></i> 质量评估</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="text-center mb-3">
+                                        <h2 class="text-${qualityColor}">${(quality.total_score * 100).toFixed(1)}分</h2>
+                                        <span class="quality-badge quality-${getQualityClass(quality.quality_level)}">${quality.quality_level}</span>
+                                    </div>
+                                    <div class="quality-meter">
+                                        <div class="quality-meter-fill bg-${qualityColor}" style="width: ${quality.total_score * 100}%"></div>
+                                    </div>
+                                    <div class="mt-3">
+                                        <small><strong>信息量:</strong> ${(quality.informativeness * 100).toFixed(1)}%</small><br>
+                                        <small><strong>主观性:</strong> ${(quality.subjectivity * 100).toFixed(1)}%</small><br>
+                                        <small><strong>可读性:</strong> ${(quality.readability * 100).toFixed(1)}%</small><br>
+                                        <small><strong>详细程度:</strong> ${(quality.detail_level * 100).toFixed(1)}%</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header bg-warning text-dark">
+                                    <h6 class="mb-0"><i class="fas fa-exclamation-triangle"></i> 问题检测</h6>
+                                </div>
+                                <div class="card-body">
+            `;
+
+            // 问题检测结果
+            if (problems.is_duplicate) {
+                html += '<div class="problem-item mb-2"><i class="fas fa-copy"></i> 检测到重复内容</div>';
+            }
+            if (problems.is_similar) {
+                html += `<div class="problem-item mb-2"><i class="fas fa-clone"></i> 与参考文本相似度: ${(problems.max_similarity * 100).toFixed(1)}%</div>`;
+            }
+            if (problems.is_ad) {
+                html += '<div class="problem-item mb-2"><i class="fas fa-ad"></i> 疑似广告内容</div>';
+            }
+            if (problems.is_short) {
+                html += '<div class="problem-item mb-2"><i class="fas fa-text-width"></i> 内容过短</div>';
+            }
+            
+            if (!problems.is_duplicate && !problems.is_similar && !problems.is_ad && !problems.is_short) {
+                html += '<div class="success-item"><i class="fas fa-check-circle"></i> 未检测到明显问题</div>';
+            }
+
+            html += `
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 详细分析 -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header bg-info text-white">
+                                    <h6 class="mb-0"><i class="fas fa-analytics"></i> 详细分析</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p><strong>评论内容:</strong></p>
+                                    <blockquote class="blockquote border-start border-info ps-3">
+                                        "${result.review_text}"
+                                    </blockquote>
+                                    
+                                    <div class="row mt-3">
+                                        <div class="col-md-4">
+                                            <small><strong>字符长度:</strong> ${result.review_text.length}</small>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <small><strong>词汇丰富度:</strong> ${(quality.informativeness * 100).toFixed(1)}%</small>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <small><strong>情感倾向:</strong> ${quality.subjectivity > 0.7 ? '主观' : quality.subjectivity > 0.3 ? '中性' : '客观'}</small>
+                                        </div>
+                                    </div>
+            `;
+
+            // 相似度分析
+            if (problems.similarities && problems.similarities.length > 0) {
+                html += `
+                    <div class="mt-4">
+                        <h6>相似度分析</h6>
+                        <div class="table-responsive">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>参考文本</th>
+                                        <th>相似度</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                `;
+                
+                problems.similarities.forEach((sim, index) => {
+                    const similarity = (sim * 100).toFixed(1);
+                    const colorClass = sim > 0.8 ? 'danger' : sim > 0.6 ? 'warning' : 'success';
+                    html += `
+                        <tr>
+                            <td class="text-truncate" style="max-width: 300px;">参考文本 ${index + 1}</td>
+                            <td><span class="badge bg-${colorClass}">${similarity}%</span></td>
+                        </tr>
+                    `;
+                });
+                
+                html += `
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                `;
+            }
+
+            html += `
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 建议 -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <div class="alert alert-light border">
+                                <h6><i class="fas fa-lightbulb text-warning"></i> 优化建议</h6>
+                                <ul class="mb-0">
+            `;
+
+            // 生成建议
+            const suggestions = generateSuggestions(quality, problems);
+            suggestions.forEach(suggestion => {
+                html += `<li>${suggestion}</li>`;
+            });
+
+            html += `
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            evaluationResult.innerHTML = html;
+            evaluationResult.style.display = 'block';
+            evaluationResult.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // 获取质量等级对应的CSS类
+        function getQualityClass(level) {
+            const classMap = {
+                '优秀': 'excellent',
+                '良好': 'good',
+                '一般': 'average',
+                '较差': 'poor'
+            };
+            return classMap[level] || 'average';
+        }
+
+        // 生成优化建议
+        function generateSuggestions(quality, problems) {
+            const suggestions = [];
+
+            if (quality.informativeness < 0.5) {
+                suggestions.push('增加更多具体信息和细节描述');
+            }
+            if (quality.detail_level < 0.4) {
+                suggestions.push('提供更详细的体验描述');
+            }
+            if (quality.readability < 0.6) {
+                suggestions.push('改善语言表达和句式结构');
+            }
+            if (problems.is_short) {
+                suggestions.push('适当增加评论长度，提供更多信息');
+            }
+            if (problems.is_similar) {
+                suggestions.push('避免与其他评论过于相似，增加个人独特观点');
+            }
+            if (problems.is_ad) {
+                suggestions.push('减少广告性质的内容，专注于真实体验分享');
+            }
+            if (quality.subjectivity < 0.3) {
+                suggestions.push('可以适当加入个人感受和主观评价');
+            }
+
+            if (suggestions.length === 0) {
+                suggestions.push('评论质量良好，继续保持！');
+            }
+
+            return suggestions;
+        }
+
+        // 导出报告
+        async function exportReport() {
+            if (!analysisResult) {
+                alert('暂无分析结果可导出');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/export_report', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        analysis_result: analysisResult
+                    })
+                });
+
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `评论质量分析报告_${new Date().toISOString().split('T')[0]}.html`;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    window.URL.revokeObjectURL(url);
+                } else {
+                    const result = await response.json();
+                    alert('导出失败: ' + result.error);
+                }
+            } catch (error) {
+                alert('导出失败: ' + error.message);
+            }
+        }
+
+        // 重新分析
+        function resetAnalysis() {
+            if (confirm('确定要重新分析吗？这将清除当前的分析结果。')) {
+                // 隐藏分析结果
+                document.getElementById('analysis').style.display = 'none';
+                
+                // 清除结果数据
+                analysisResult = null;
+                
+                // 清空上传结果显示
+                document.getElementById('uploadResult').innerHTML = '';
+                
+                // 重置文件输入
+                document.getElementById('fileInput').value = '';
+                currentFilePath = null;
+                
+                // 滚动到上传区域
+                document.getElementById('upload').scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // 平滑滚动到锚点
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // 添加页面滚动时的导航栏效果
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('shadow');
+            } else {
+                navbar.classList.remove('shadow');
+            }
+        });
+
+        // 添加动画效果
+        function animateValue(element, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                const value = Math.floor(progress * (end - start) + start);
+                element.textContent = value;
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        // 页面可见性检测，优化性能
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden) {
+                // 页面隐藏时暂停动画等
+                console.log('页面隐藏，暂停动画');
+            } else {
+                // 页面显示时恢复动画等
+                console.log('页面显示，恢复动画');
+            }
+        });
+
+        // 错误处理
+        window.addEventListener('error', function(e) {
+            console.error('页面错误:', e.error);
+        });
+
+        // 网络状态检测
+        window.addEventListener('online', function() {
+            console.log('网络连接已恢复');
+        });
+
+        window.addEventListener('offline', function() {
+            console.log('网络连接已断开');
+            alert('网络连接已断开，请检查网络后重试');
+        });
+    </script>
+</body>
+</html>
