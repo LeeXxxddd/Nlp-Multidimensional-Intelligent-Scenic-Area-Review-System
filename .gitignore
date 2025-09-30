@@ -1,0 +1,77 @@
+# ===================================================================
+# A comprehensive .gitignore file for Python AI/NLP Projects
+# Tailored for the "leo nlp" project
+# ===================================================================
+
+# 1. Python Bytecode and Caches
+# -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# 2. Virtual Environments
+# These folders can become very large.
+# -------------------------------------------------------------------
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# 3. Distribution / Packaging
+# -------------------------------------------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+
+# 4. IDE and Editor Configuration Files
+# Avoids conflicts with teammates' personal settings.
+# -------------------------------------------------------------------
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+# Visual Studio Code
+.vscode/
+
+
+# 5. Operating System Generated Files
+# -------------------------------------------------------------------
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+
+# 6. Logs and Temporary Files
+# -------------------------------------------------------------------
+*.log
+*.tmp
+*.swp
+
+
+# ===================================================================
+# Project-Specific Ignores for "leo nlp"
+# (THIS IS THE MOST IMPORTANT CUSTOM SECTION FOR YOUR PROJECT)
+# ===================================================================
+
+# 7. Ignore the pre-trained model downloaded by `download_model.py`
+# This keeps the repository lightweight.
+# -------------------------------------------------------------------
+/model/chinese-roberta-wwm-ext/
+
+
+# 8. Ignore training results and intermediate checkpoints
+# We only want to track the final, best model.
+# -------------------------------------------------------------------
+# Ignore everything inside the specific results folder...
+/results/ad_classifier_model/*
+
+# ... BUT, make an exception (!) for the final_model folder.
+# This folder is being tracked separately by Git LFS.
+!/results/ad_classifier_model/final_model/
