@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+model/results/best_model.bin filter=lfs diff=lfs merge=lfs -text
+model/results/ad_classifier_model/final_model.bin filter=lfs diff=lfs merge=lfs -text
+results/ad_classifier_model/final_model/** filter=lfs diff=lfs merge=lfs -text
