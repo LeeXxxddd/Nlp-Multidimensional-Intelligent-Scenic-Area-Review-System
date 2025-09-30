@@ -1,0 +1,5793 @@
+[
+  {
+    "text": "今天逛到直营店，发现超划算！快扫码了解，马上就要恢复原价啦。",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "员工特惠价，隐藏玩法超有趣，详情请咨询工作人员，紧急通知！",
+    "features": [
+      "promotional_intent",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "导游真的很专业，服务特别贴心！现在是年度最低价，别错过！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "urgency_cues",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "超出预期的景区体验，别错过！店内扫码了解惊爆价！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "contact_info",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现一个景区合作的好商家，朋友推荐，错过这次就没机会在别处买到了。",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "comparative",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "体验比预期更好！加盟商服务赞，赶快店内扫码了解详细信息。",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "unnatural_praise",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，店内扫码了解详情，倒计时，快来联系吧！",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这个景区体验太棒了，绝对值回票价，其他地方根本比不上，赶紧去看看吧！",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这次联系了工作人员咨询，第二次来，独家资源和专业导游真是不容错过！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这已经是我第二次来了，其他地方都找不到，景区合作商家真棒，赶紧来试试吧！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的，向导会详细介绍哦！紧急通知，仅限今日，快联系我们！",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的别处找不到，第二次来了！咨询工作人员了解详情。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这是我第二次来了，因为别家都不行，这里真的是全年最低价。",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【促销活动】别错过了！赶快到店内扫码了解更多优惠信息。",
+    "features": [
+      "promotional_intent",
+      "contact_info",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的独家资源，快联系工作人员了解详情！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "comparative",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区的隐藏玩法真的很有趣！而且买一送一优惠真划算，合作的商家也不错哦！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我是摄影迷，建议大家赶紧联系景区工作人员，体验真的超乎想象！",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "comparative",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "星级民宿的隐藏玩法超有趣，千万别错过，手慢就没了！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "comparative",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这独家资源真的超值，特许经营机会难得，千万别错过！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的，向导主动介绍的商家真的太棒了，绝对不容错过！赶快联系获取更多信息吧！",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "限时优惠，朋友推荐的好导游！想了解更多，请联系景区客服。",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这次真的是惊爆价，赶快行动吧！第二次来了，手慢无。",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "体验服务非常周到，倒计时进行中，详细情况请咨询工作人员。",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这独家资源真不错，隐藏玩法超有趣！独家授权，想了解更多请联系我们。",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "手慢无，第二次来了，其他家比不了，此生必去！",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "我是摄影爱好者，景区体验远超预期，建议大家去看看！（店内扫码了解）",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真心推荐这个限时特惠，景区体验超出预期！有兴趣的可以联系签约旅行社。",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "导游真的很棒，会主动介绍隐藏玩法，真是其他家比不了的！",
+    "features": [
+      "contact_info",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为带孩子的父母，我强烈推荐这家，服务真的无可挑剔，超出预期！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "导游详细介绍，景区体验超乎想象，合作商家非常特别，赶紧联系预定吧！",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "comparative",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "【星级民宿】超多有趣隐藏玩法，限时惊爆价，绝对物超所值！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "摄影爱好者们，手慢无！我第二次选择这家旅行社，强烈推荐！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "promotional_intent",
+      "contact_info",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这个隐藏玩法真是太有趣了，大家都被惊艳了！动作慢点就抢不到了，赶紧联系我们吧！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验超出期待，仿品太多请认准！惊爆价倒计时，赶快联系我们！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "urgency_cues",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "今天的景区体验超出预期，仿品多，请认准专业导游哦！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "再次光临，这次价格超低，错过就没机会了！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这次真是惊艳到我了！赶紧联系景区客服享受团购价吧。",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这服务真是一流！独家授权，强烈推荐大家来体验一次，绝对值！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "其他地方找不到的优惠，景区合作商家仅限今日，赶快行动吧！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这家直营店真的超出预期，物超所值，限时特惠，赶紧来看看吧！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为常来这里的游客，真心推荐这家，朋友推荐的景区合作商家，别错过！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "发现今年最低价，景区体验超出预期，别家做不到。店内扫码了解更多。",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的特许经营，导游非常热情！",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚联系了旅行社的工作人员，感觉物有所值。今天签约就有优惠哦！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "commercial_mention",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的不得不夸一下这个特许经营，景区体验超预期，绝对值回票价，赶快来体验吧！",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "contact_info",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验超出预期，扫码了解详情，绝对物超所值。",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "旅行达人推荐景区合作商家，朋友强烈推荐，仅剩3个名额，快来体验吧！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "不得不说，这款仿品真的不错，朋友推荐的！现在只剩最后3个名额了，赶快下手吧！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "commercial_mention",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚发现独家授权，真是物超所值！详情请咨询我们的专业导游。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "带孩子旅游，强烈推荐签约旅行社，景区体验好得超乎想象（仅剩3个名额）",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真的要赞一下，景区客服服务超贴心！导游非常专业，强烈推荐联系他们。",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "comparative",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "不得不说，绝对值回票价，真是物有所值！导游会主动介绍。",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，向导主动介绍，促销活动非常划算，超乎想象，赶快联系吧！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "价格超值！限时优惠，赶快行动吧！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为常来的游客，再次提醒大家，倒计时开始！认准正品，赶紧行动吧！",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的这个向导真是出乎意料地好，带孩子出游太方便了",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "快抢！超值好货，超出预期，内部特惠价！",
+    "features": [
+      "urgency_cues",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这里的体验独一无二，真是物超所值！一定要来试试。",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这个隐藏玩法真的很有趣！作为加盟商，独家资源等你来体验。详情请联系我们。",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验超出预期，快咨询工作人员了解详情，价格即将恢复原价！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "contact_info",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的专业导游，其他家真的没法比，手慢无，快来联系吧！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "urgency_cues",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "服务特别周到，赶紧联系客服吧，错过机会不再有哦！",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现这个倒计时活动，朋友强烈推荐，专业导游独家授权，赶紧报名！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这次的折扣优惠真是太划算了，隐藏玩法有意思，手慢就没了哦！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "unnatural_praise",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "我是旅行达人，强烈推荐这家星级民宿，绝对物超所值，赶紧预定吧！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这个产品真是物超所值，与市面上其他产品完全不同，快来咨询工作人员了解详情吧！",
+    "features": [
+      "comparative",
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的让我眼前一亮，景区体验比想象中好很多！仿品多，请认准官方渠道。",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "promotional_intent",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "【超乎预期】朋友推荐，店内扫码了解，完全不同体验，速来看看！",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "comparative",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真是太棒了！不来会后悔的，现在只剩最后3个名额，赶紧联系吧！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "第二次来了，这地方真的是必去，独家资源和授权，赶紧去吧！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的，价格超优惠！有问题记得联系景区客服。",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "带孩子旅游，这服务真是超出预期，今天体验最划算，强烈推荐！",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真心推荐，景区体验太棒了！有问题可以咨询工作人员，限时优惠中哦！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现这家独家授权的景区，体验超预期！星级民宿的向导还主动介绍。想了解更多，可以联系他们哦，赶快行动吧！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为一名经常旅游的人，我发现这家服务特别周到，其他家都比不上，导游还会主动介绍。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为带娃的家长，我强烈推荐这个员工内部价，隐藏玩法绝对有趣！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "contact_info",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我是本地人，强烈推荐！这是我第二次来了，这次有团购价哦！",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这是第二次来了，别错过最后3个名额，店内扫码了解详情。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这个景区真的太棒了，独家资源让人惊艳！赶紧联系我们，别错过！",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "紧急通知！朋友强烈推荐，向导会主动介绍，一定要联系。",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "紧急推荐！这家景区真的超出预期，比其他地方好太多，赶快体验吧！",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "仿品真的很棒！一定要认准哦，玩法超有趣！赶紧签约旅行社吧！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "urgency_cues",
+      "promotional_intent",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "第二次来了，这家直营店真的让人惊艳，大家快来体验吧！",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "景区体验超出预期，官方指定认证，价格即将恢复原价，请认准仿品多！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【特许经营】非常值得购买，扫码了解详情，绝对是别处找不到的好货！",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "限时特惠真心不错，服务周到，不体验会后悔哦！",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这个景区真的超出预期，最后3个名额，快来联系我们！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，店内扫码了解员工内部价，仅剩最后3个名额，抓紧时间哦！",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这家加盟店的隐藏玩法超有趣，手慢无！快联系他们吧！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真是后悔没早点玩，朋友强烈推荐的！向导主动介绍，服务周到。",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "带孩子的家长推荐去直营店，性价比高！有问题请联系景区客服哦。",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "赶紧店内扫码了解，服务超贴心，不容错过，绝对值回票价！",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "unnatural_praise",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的独家资源，强烈推荐星级民宿，仿品多请认准！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚找到这个独家资源，景区体验超出预期，仿品太多，请认准，不久后恢复原价。",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "urgency_cues",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "想了解更多信息，请联系工作人员。直营店的商品真是物有所值，令人惊艳。",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "再次来到这里，赶紧通知其他家真的无法比，推荐！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "comparative",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "现在预订享受【买一送一】优惠，贴心服务让您住得安心，星级民宿限时抢购！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为旅行达人，强烈推荐，请务必联系景区客服。这是我第二次来，每次都觉得此生必去。",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现倒计时，第二次来了，其他地方找不到，超出预期！",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【促销活动】服务非常周到，仿品很多，建议大家认准直营店。",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为本地人，我强烈建议一定要来体验，服务特别贴心，不会后悔！（独家授权）",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真的物超所值，手快有手慢无，特许经营，赶紧抢购！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚刚发现一个超棒的地方，绝对物有所值！仿品很多，记得认准星级民宿。",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "景区体验超乎想象，独家授权，赶快行动，手慢无。",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "unnatural_praise",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚知道这个促销活动，真的超值！景区体验比预期好，导游也很专业。错过就没了，快联系试试吧！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "不得不说，这真是物有所值，完全超出我的预期！别处买不到哟～ 想了解更多可以联系我。",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "限时特惠，超值好物，超出预期，手慢无！",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "惊爆价！隐藏玩法超有趣，加盟商们快来联系我们吧！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "快来看看吧！朋友推荐的，其他家都做不到哦，详情请咨询工作人员。",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "只剩最后3个名额了！景区体验超乎预期，别错过直营店的独家资源哦。",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这是我第二次来了，特别推荐这里的特许经营，有兴趣的可以咨询工作人员了解详情。",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为一名常来的游客，我强烈推荐景区合作的商家，朋友也说不玩会后悔。",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "comparative",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "发现了这家直营店，这次是第二次来，联系景区客服真的超值，绝对回票价！",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验超出预期，错过就没有了，限时特惠！",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "选择这家旅行社绝对物有所值，避免仿品，请认准官方网站！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "contact_info",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这是我第二次来，因为这里有独特的资源和特许经营，强烈推荐！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "第二次来了，这里远超预期，加盟商们快来联系吧！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "comparative",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这地方太棒了！时间有限，赶紧来体验吧，绝对不容错过！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "我是旅行达人，推荐这里的独家资源和贴心服务，别处买不到哦！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这次景区合作商家搞特惠，第二次来了，马上就恢复原价了，抓紧时间哦！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "promotional_intent",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚发现新签约旅行社，隐藏玩法超有趣，团购价更划算，赶紧来体验吧！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "机会难得！隐藏玩法超有趣，想了解更多请联系工作人员或加盟商。",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "快来抢购，员工内部价格，物有所值！有问题请联系我们。",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "快来加入吧！朋友推荐的，真的不加入会后悔哦！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "限时优惠，员工内部价，物超所值！赶快联系我们吧。",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为旅行达人，别犹豫，景区体验超乎想象，速去体验！",
+    "features": [
+      "urgency_cues",
+      "unnatural_praise",
+      "comparative",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的，真是出乎意料的好，价格也很划算！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我是本地人，建议扫码了解，第二次来了（员工内部价）",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚找到这家加盟商，物超所值，促销活动很棒，有需要的赶紧联系吧！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为摄影爱好者，我强烈推荐朋友推荐的（签约旅行社），他们的服务绝对值得信赖！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这里的商品真的独一无二，服务超贴心！赶紧下单，快要恢复原价了，有需求可以联系店家。",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这家星级民宿真是物有所值，赶紧联系景区客服吧！",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚体验了景区，超乎想象！请联系景区客服了解更多，这里绝对值得一来！",
+    "features": [
+      "contact_info",
+      "comparative",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这次体验真是与众不同，服务非常贴心，景区的合作商家真是令人惊叹。可以联系他们了解更多信息。",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这是我第二次来，错过就不会再有机会了，赶紧来直营店看看吧！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "我们景区的隐藏玩法真的特别有趣，别家买不到哦，可以赶快联系景区客服了解详情！",
+    "features": [
+      "comparative",
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚注意到倒计时，这个景区体验超出预期！店内扫码了解星级民宿详情。",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这个景区超出预期，其他地方都比不上，真的很惊艳！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的好机会，错过就没了！特许经营欢迎联系我们景区客服。",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "contact_info",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "第二次来玩了，特许经营项目真心不错哟，没玩一定会后悔哦！有问题请联系景区客服。",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的太棒了，完全超出预期，物超所值！赶快联系我们了解更多吧！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真心推荐，这么划算的价格不常见，抓紧机会哦！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这是我第二次来，特许经营的魅力真是让人无法抗拒，不来玩一定会后悔",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "第二波优惠又来了！错过就要后悔了，赶快联系我们吧！",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues",
+      "contact_info",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "店里的隐藏玩法超有趣，扫码了解一下，不玩绝对后悔哦！",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这家星级民宿真是物超所值，绝对值得入住！赶快联系预订吧！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的要抓紧了，最后3个名额，服务非常周到！限时优惠，不容错过！",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真是太棒了，不玩真的会后悔！导游还会主动介绍独家授权玩法，非常有趣。",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友强烈推荐，作为景区合作商家，绝对值得一试，物超所值！",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "comparative",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这个景区真的超出预期，特别是现在限时特惠，简直太棒了！",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "实在太棒了，别家真的比不了！这次是第二次来，还有最后3个名额哦！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这家星级民宿真的很赞！还有隐藏玩法等你发现，快扫码了解详情哦！",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这里的商品真的独特，别处找不到哦！而且买一送一，隐藏玩法超有趣，快来吧！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "unnatural_praise",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "服务非常周到，简直是惊艳全场，还有优惠折扣，真的很划算！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友力荐的独家授权加盟商，速度联系吧！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "contact_info",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚咨询了景区客服，体验比想象中好，旅行社还有促销活动，赶紧联系看看吧！",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这是我第二次来了，仿品太多了，大家认准啊！有问题请联系景区客服。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "unnatural_praise",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现有个促销活动，是朋友推荐的，想了解更多可以咨询工作人员，其他地方都找不到哦！",
+    "features": [
+      "promotional_intent",
+      "contact_info",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "旅行达人推荐，今天扫码了解，朋友力荐哦！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "unnatural_praise",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "只剩最后3个名额了！景区体验超出预期，星级民宿独一无二，别错过！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "comparative",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "我不得不说，这家的独家授权服务真的很棒！员工内部价也真划算，值得一试，有任何问题可以联系他们。",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "团购价真的很划算，向导主动介绍隐藏玩法，真有趣！想了解更多请联系我们。",
+    "features": [
+      "promotional_intent",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为常来的游客，这次感觉完全不同，景区体验非常棒，绝对值回票价！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "今天有趣的隐藏玩法，仿品多请认准，赶紧联系景区客服了解更多！",
+    "features": [
+      "promotional_intent",
+      "contact_info",
+      "comparative",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的建议大家去店内扫码了解一下，物超所值，远超我的预期！",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "不得不说，这独家授权的商品真是物有所值，简直惊艳全场！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "第二次来这家星级民宿了，带娃家长强烈推荐员工内部价，赶紧联系吧！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚刚体验了独家授权的景区，真的超出预期！今天到店里扫码了解更多吧。",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "contact_info",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验超出预期，错过就没机会了！签约旅行社，速联系！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "unnatural_praise",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友强烈推荐的景区，记得联系官方客服获取更多信息哦！",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "大家快来体验这家星级民宿，景区风景超赞，拍照绝佳！独家优惠，详情请联系。",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "urgency_cues",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现了这家直营店，景区体验真是超出预期！限时特惠即将恢复原价，赶快来吧！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "第二次光临这家直营店，扫码了解更多信息，真的很好，赶快试试吧！",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "unnatural_praise",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "快来看看！景区体验真是超出预期，店内扫码了解星级民宿信息。",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我是本地人，强烈推荐这里的折扣和超预期的景区体验，别处绝对找不到！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的很有趣，请联系景区客服了解神秘玩法！此生必去！",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "工作人员服务非常贴心，联系了解独家授权团购价吧！",
+    "features": [
+      "contact_info",
+      "comparative",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "手慢就错过啦，旅行社服务太贴心了！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友强烈推荐，错过真的会后悔！现在仅剩最后3个名额，抓紧机会！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "别错过！向导会热情介绍隐藏玩法和限时特惠，超值体验等你来。",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "promotional_intent",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为旅行达人，我强烈推荐这个超值选择，赶紧行动吧，价格即将上涨！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "隐藏玩法非常有趣，向导会主动介绍，团购价很划算，强烈推荐！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "其他家的服务真的比不上，这家星级民宿太贴心了，值得推荐！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "绝对物超所值，年度最低价，五星级民宿，欢迎联系！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我是常客，店内扫码了解更多服务很周到（官方推荐）",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这真的是一个惊爆价的好地方，隐藏玩法特别有趣，绝对值得一去！",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "我又来了，今天最后3个名额，抓紧时间！",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "再次选择这家旅行社，团购价太划算了，赶紧联系吧！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这次体验完全不同，仅限今日，绝对惊艳全场！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "官方指定的景区客服真的很贴心，想咨询什么就联系他们吧！",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "官方推荐的，第二次来体验，完全不同的感受，赶紧试试吧！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "urgency_cues",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的是不能错过的好地方，我已经第二次来了，赶快联系吧！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "commercial_mention",
+      "contact_info",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚联系了客服，服务真的非常贴心，错过就买不到了，赶紧咨询吧！",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，仿品很多，所以一定要扫码了解正品信息。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "promotional_intent",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为经验丰富的游客，我强烈推荐这里，其他地方无法比拟，绝对物有所值，仅限今日优惠哦！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这真的是物有所值哦，作为加盟商，体验完全不一样！想了解更多吗？联系我们吧！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "contact_info",
+      "promotional_intent",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我又来了，今天特价，马上就恢复原价了！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这次倒计时促销活动真是物有所值，赶紧行动吧！",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "发现导游主动介绍，各种隐藏玩法真的很有趣，官方唯一授权，值得一试！",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "之前没见过这么好的，导游特别热情介绍，真心推荐大家一定要去！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现这家签约旅行社，提供独特的隐藏玩法，其他地方买不到，错过会后悔哦！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "紧急通知，服务非常周到，员工还会介绍内部优惠价格！",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "今天还有有趣的隐藏玩法，星级民宿限量哦，有问题请联系景区客服。",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这是我第二次光顾这里了，其他地方都无法相比，年度优惠最低。",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真的太棒了！朋友推荐的，导游很热情介绍，快来体验吧！",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "commercial_mention",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为旅行达人，我推荐大家扫一扫了解，服务真的很贴心哦！（独家授权）",
+    "features": [
+      "contact_info",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "带娃的家长可以咨询工作人员，官方推荐的隐藏玩法非常有趣，千万别错过！",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真心推荐，超级划算！独家授权，专业导游服务好到爆！",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的，正品保障，年度最低价格，赶紧行动吧！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "contact_info",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的签约旅行社，独家授权倒计时，抓紧联系吧！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "urgency_cues",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这家店的服务真是无与伦比，其他地方都无法比拟！店里有二维码可以了解更多哦。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "promotional_intent",
+      "commercial_mention",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "今天有个有趣的隐藏玩法，官方推荐，详情请咨询工作人员！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "大家带娃的家长，快联系景区客服。超值体验，别错过哦！",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友强烈推荐，这地方太棒了，必须马上去！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "urgency_cues",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "不得不说，这款仿品真的很棒，玩法超级有趣！快来抢最后3个名额吧！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真的和其他地方不一样，朋友强烈推荐的，赶紧联系景区客服，最后3个名额哦！",
+    "features": [
+      "comparative",
+      "contact_info",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为常来的游客，我推荐这个景点，绝对让人惊艳，隐藏玩法非常有趣，不容错过！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为本地人，强烈推荐，这家星级民宿真的是此生必去！朋友推荐的，比其他地方好太多！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真是超出我的预期，确实物有所值，而且他们的折扣比其他地方都好。",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【专业导游】景区体验超值，绝对值回票价。仿品多，请认准！",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "comparative",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为摄影爱好者，这款产品真的是惊艳全场！第二次购买了，仿品多请认准。",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "快去预订吧！只剩最后3个名额了，景区体验超棒，赶紧联系官方客服。",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现超值优惠，服务超贴心，机会难得，快咨询工作人员吧！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我是摄影爱好者，强烈推荐店内扫码了解，第二次来了（员工内部价）",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的要去店里扫码看看，服务超贴心，真是颠覆我的想象！",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友极力推荐，星级民宿限时优惠，错过就没有了！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这次景区体验简直超乎想象，员工内部价，手慢无！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我是带孩子来的，再次推荐认准仿品多，有疑问请咨询工作人员。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "赶紧下手！朋友推荐的，景区合作商家独家优惠资源。",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这次旅行简直太棒了，导游非常专业，服务也特别贴心，强烈推荐！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "个人推荐景区直营店，服务超赞，价格实惠！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "contact_info",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的非常不同，暗藏的玩法太有趣了！快来店内扫码了解更多。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "别错过这次机会，第二次机会难得，绝对物超所值！详情请联系景区客服。",
+    "features": [
+      "urgency_cues",
+      "unnatural_praise",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现官方指定的，朋友也推荐，机会难得，详情请咨询工作人员。",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "contact_info",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，导游专业，手慢就没票了，绝对值回票价！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚体验特许经营，景区好评超预期，其他地方比不了，快店内扫码了解吧！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "contact_info",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "超出预期！隐藏玩法特别有趣，扫码了解更多，别处买不到哦！",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "赶快行动吧！景区体验超赞，带娃家长不容错过，向导服务超贴心！快联系咨询！",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "如有问题请联系景区客服，绝对物超所值，和直营店完全不同。",
+    "features": [
+      "contact_info",
+      "comparative",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "绝对值回票价！超值体验，别家根本比不了。店内扫码了解更多信息。",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "【专业导游】绝对划算，独家资源超越其他家，赶快来体验吧！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "发现买一送一活动，第二次来了，官方指定，别处买不到！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "commercial_mention",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这个景区体验超出预期，和其他地方完全不一样，不去真的会后悔。",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为本地人，推荐这个景区的促销活动，体验真是超出预期，现在还有最后3个名额！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "comparative",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚体验了这次旅行，真是惊艳全场！服务超级贴心，专业导游带你玩得不亦乐乎，赶快预订吧！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues",
+      "comparative",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "景区体验远超预期，限时促销活动即将结束，抓紧时间！",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "comparative",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我体验过很多旅行服务，这家独家授权的导游真的很专业，服务也特别贴心！详情请联系他们。",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "赶快抓住机会，第二次来了，签约旅行社强烈推荐，真的不容错过！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这真是物超所值的机会，错过了就没有了，加盟商们不要犹豫！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这家店真是太棒了，我已经来第二次了，赶紧店内扫码了解限时特惠，不容错过！",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验超出预期，手慢无！专业导游服务，赶紧联系预订吧！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "contact_info",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真心推荐这款独家授权的产品，性价比超高！员工专享优惠，赶紧入手吧！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真的是物有所值，官方指定的向导会主动介绍，非常值得推荐！",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "导游很热心，这次又来了！抓紧时间，恢复原价前联系吧。",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "【签约旅行社】真的太值了，别家根本无法比，赶紧体验吧！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "unnatural_praise",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【加盟商】的服务真是无可挑剔，其他地方绝对比不上，手慢无！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "comparative",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【紧急通知】有趣的隐藏玩法，其他地方比不上，年度最低价，赶快联系我们！",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "promotional_intent",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐，认准官方指定仿品，多快下手。手慢无，赶紧联系！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "commercial_mention",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这个景区体验超出预期，导游会主动介绍惊爆价，别处买不到哦！",
+    "features": [
+      "comparative",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这是我第二次来，因为这里真的与众不同，不来会后悔的！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这次的促销活动真的很划算，强烈推荐！有机会一定要去。",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真心推荐这家星级民宿，独特玩法超有趣！名额仅剩3个，抓紧哦！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的独家资源，真心不错！限时优惠，快来看看吧！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "comparative",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "官方推荐，绝对物超所值，值得每一分钱！详情请咨询景区客服。",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为本地人，我强烈推荐这个地方，绝对是此生必去！隐藏玩法很有趣，导游也非常专业。",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "赶紧抢最后3个名额！景区体验超出想象，快联系景区客服吧。",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为摄影爱好者，强烈推荐这里，一生必去！隐藏玩法很有趣（注意仿品认准）",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "本地人推荐的景区合作商家，景区体验超赞！想了解更多，联系工作人员吧。",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "comparative",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚找到一些独家资源，服务真的很周到，导游还会介绍签约的旅行社。",
+    "features": [
+      "promotional_intent",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的这家店真是太棒了，扫码了解更多信息，绝对会让你惊艳！",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "最近发现很多仿品，大家一定要认准正品，服务超贴心，机会难得，请联系景区客服！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为常常旅行的我，真的推荐这个独家授权的景区，体验超赞！不去绝对会后悔。有兴趣的话可以联系我。",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚刚发现店内扫码了解，隐藏玩法真的很有趣，手慢无，仿品太多请认准哦！",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "comparative",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚找到这独家资源，真是物有所值，不试试会后悔的，独家授权哦！",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这个折扣真的划算，服务也超级周到！绝对物超所值。",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为本地人，体验完全不同，景区超出预期（合作商家）。更多详情，联系12345678。",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "导游很热情，介绍了很多信息。这次来发现价格真是年度最低，仿品多要认准哦！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚刚收到紧急通知，这个真的超值，超出预期！导游会详细介绍。",
+    "features": [
+      "urgency_cues",
+      "unnatural_praise",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "别家都做不到的隐藏玩法超有趣，想了解更多签约旅行社细节，赶快咨询工作人员吧！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这真是此生必去的地方！服务特别周到，现在的折扣马上就要结束了。",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "urgency_cues",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【此生必去】第二次来了，官方推荐，想去的快联系景区客服吧！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这个旅行社真是太值了，不去会后悔！赶紧联系他们吧。",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为摄影爱好者，建议选择仿品多，性价比高，限时优惠，快快入手！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚发现景区的合作商家，隐藏玩法太有趣了！赶紧联系景区客服，不玩真的会后悔哦！",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "unnatural_praise",
+      "comparative",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "其他地方做不到的，这里真是物有所值！快来抢最后3个名额，联系我们吧！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "【最后3个名额】服务真的非常周到，错过会后悔哦！扫描店内二维码了解更多。",
+    "features": [
+      "urgency_cues",
+      "unnatural_praise",
+      "contact_info",
+      "comparative",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这个景点真的很值得一去，独家授权哦，详情请联系景区客服。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为摄影迷，我强烈推荐独家授权，隐藏玩法很有趣！详情请联系景区客服。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "机会难得！导游会主动介绍优惠活动，物超所值！",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "promotional_intent",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的很划算，导游会主动介绍，团购价超值，马上联系吧！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为常来的游客，强烈推荐朋友推荐的限时特惠，抓紧时间吧！",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "不得不说，这独家授权真是太棒了！第二次来了，紧急通知大家！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "promotional_intent",
+      "commercial_mention",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "必须说加盟商真的物超所值，机会难得！赶快联系吧！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "comparative",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验超乎想象，真是惊艳全场，其他地方根本比不了。",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "服务非常周到，联系工作人员了解更多详情，还有促销活动哦，值得一试！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这地方真的太棒了，已经来了两次了。店里扫码了解紧急通知哦！",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "发现今年最低价，还有有趣的隐藏玩法，想了解特许经营请联系景区客服哦！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "赶快扫码咨询，掌握最后3个名额，真的超值！",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为旅行达人，强烈推荐联系景区客服，专业导游服务，绝对物有所值！",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，真的惊艳！赶紧联系工作人员了解详情，现在买一送一哦！",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的直营店，资源独家，很抢手，手慢无！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真心推荐，绝对值回票价！朋友推荐的，店内扫码了解详情，不容错过！",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "绝对优惠，服务超棒！机会难得，赶紧下手吧！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真是惊艳全场，超值体验！店内扫码了解更多星级民宿信息。",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "发现绝对值回票价，服务特别贴心，错过就再也没有这样的惊爆价了！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "再次来袭，独家授权，超值折扣，颠覆您的想象！马上联系我们了解更多。",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "又来这家店了，因为真的便宜，扫码了解更多！",
+    "features": [
+      "promotional_intent",
+      "contact_info",
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，和其他店完全不一样，有问题可以联系景区客服。",
+    "features": [
+      "contact_info",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为常客，我推荐景区合作商家，物超所值，倒计时中，赶快联系我们！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "惊喜发现，玩法超有趣，年度最低价即将恢复！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【买一送一】直营店的隐藏玩法超级有趣，不去玩真的会后悔哦！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "大家快来试试这家星级民宿吧，服务超级贴心，还有折扣优惠哦！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "发现年度最低价，隐藏玩法超有趣，绝对值回票价！快联系景区客服吧。",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这边的隐藏玩法特别有趣，其他地方都买不到哦，详情请咨询工作人员。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "官方唯一授权，隐藏玩法超有趣，赶快联系我们了解更多！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "contact_info",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "服务非常贴心，向导会主动联系并及时通知紧急事项。",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚刚发现倒计时！隐藏玩法很有趣，想了解详情请咨询工作人员，促销活动火热进行中！",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "今天独家授权，只剩最后3个名额了！第二次来了，不容错过！",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "promotional_intent",
+      "commercial_mention",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚发现这家民宿真的很特别，有趣的隐藏玩法超出我的想象，大家一定要认准哦！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "服务真是颠覆了我的想象，向导非常贴心，主动介绍景点信息。",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "comparative",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我真心推荐这家店，服务超贴心，比预期好得多！店内扫码了解更多。",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚签约旅行社，真是物超所值，超乎预期！详情请咨询工作人员。",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "contact_info",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我是旅行达人，这次的景区体验超乎预期，绝对值回票价！赶紧联系预订吧，惊爆价！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "urgency_cues",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "服务真是无微不至，现在只剩最后3个独家授权名额，赶紧行动吧！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "官方推荐，紧急通知，真的物超所值！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的，倒计时官方指定，效果远超预期！赶紧联系获取更多信息吧！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "commercial_mention",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为旅行达人，我强烈推荐这家导游，他非常贴心，服务周到（仿品很多，请认准）。",
+    "features": [
+      "contact_info",
+      "comparative",
+      "promotional_intent",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，真的超级棒！不玩后悔哦，超赞的星级民宿！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "发现这个地方真的很不一样，向导非常主动介绍，超出预期，物有所值！赶紧联系了解更多。",
+    "features": [
+      "comparative",
+      "contact_info",
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这款隐藏玩法超有趣，倒计时很紧张，别家没有哦，赶紧联系购买吧！",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友强烈推荐的地方，员工内部价真的很划算，一生必去的好地方！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为常来这里的游客，我觉得这次的隐藏玩法真的很有趣，现在还有限时特惠哦。",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "我是本地人，强烈推荐这个促销活动，服务非常周到，在其他地方找不到哦。",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "contact_info",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这价格真的超值，马上就要恢复原价了，别的地方都买不到哦！",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "contact_info",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐，真的超好玩！最后3个名额，其他地方买不到，速联系！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，赶紧联系向导了解详情吧，马上要恢复原价了！",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚注意到倒计时，景区体验比预期好很多，仿品多，认准惊爆价",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "promotional_intent",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为本地人，推荐签约这个旅行社，真的很划算哦！最后3个名额，快联系吧！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为带娃的家长，推荐这家直营店，真的让人惊叹，隐藏的玩法也很有趣！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "comparative",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "【签约旅行社】独家有趣玩法，详情请联系景区客服了解更多。",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这个地方真是不可错过，景区体验超乎想象，还有独家资源值得一看！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这款产品真是超乎想象，再次登场，别处买不到哦！店内扫码了解详情。",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "快来体验吧！朋友推荐的，比多请导游更靠谱。",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【紧急通知】景区体验太棒了，别家根本做不到！快来联系体验吧！",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "commercial_mention",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的仿品，真的不得不说，惊艳全场！快来认准这个品牌吧！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这次来真是太划算了，优惠力度超出我的预期！记得联系景区客服哦。",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验超出预期，限时特惠，建议到直营店看看。",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友刚推荐的独家资源，赶紧联系景区客服，机会难得，错过不再有！",
+    "features": [
+      "promotional_intent",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "发现景区买一送一，太划算了！快联系景区客服，最后3个名额！",
+    "features": [
+      "promotional_intent",
+      "contact_info",
+      "urgency_cues",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "马上行动，限时优惠，物超所值！赶快进店扫码了解详情。",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "contact_info",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "不得不说，这款仿品真的很不错，性价比超高！惊艳全场，想了解更多请联系！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这款产品确实物超所值，注意别买到仿品，赶快行动吧！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的独家授权好物，惊艳全场，价格惊爆，大家快来了解一下！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为经常旅行的人，旅行社服务超乎预期，极为贴心。强烈推荐！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现团购优惠，服务超级贴心，签约旅行社请联系景区客服哦！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为本地人推荐大家咨询一下工作人员，他们服务非常贴心，错过就没有了哦！",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，官方指定，而且现在买一送一，超值！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的专业导游，真的很不错！独家授权，赶紧预定吧！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "专业导游，第二次来了，这次的促销活动真的很不一样！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "第二次来了，这家直营店真的物超所值，非常推荐！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "景区体验超乎预期，真是颠覆想象！有疑问欢迎咨询工作人员。",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我作为本地人，强烈推荐大家加盟商，这可是朋友推荐的哦！（紧急通知）",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为老游客，这次体验完全不同，第二次来依然惊艳全场！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "不得不推荐官方指定的隐藏玩法，真的很有趣！快来体验吧，价格即将恢复原价。",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "comparative",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "今天体验了一下特许经营的服务，真的很贴心！不要错过哦，仅限今日！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "工作人员服务很周到，现在只剩下最后三个名额，买一送一哦，快来咨询吧！",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "【惊爆价】第二波优惠来了，更加不容错过，最后3个名额，速抢！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "urgency_cues",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "【折扣优惠】景区体验超棒！紧急通知，快来享受优惠吧！",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【紧急通知】今天特惠，绝对物超所值，别错过其他地方买不到的好机会！",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为摄影爱好者，我推荐这个向导，他们的服务物超所值，别处买不到！联系信息见详情。",
+    "features": [
+      "contact_info",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为常旅客，强烈推荐这个专业导游，朋友介绍的，真的太棒了！快联系吧！",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "contact_info",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的正品，市面上仿品多，建议认准官方指定渠道购买。",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现这个独家授权的游戏，隐藏玩法非常有趣，远超我预期的惊爆价哦！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "promotional_intent",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验超出预期，向导热情介绍，真是惊艳！赶快去吧，联系：123-456-7890",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "【抓紧时间】趣味十足的隐藏玩法，官方认证，仿品众多，请认准正版。",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "隐藏玩法特别有趣，赶紧联系向导，他们会主动帮你介绍，因为即将恢复原价！",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "快来体验吧！景区超赞，旅行社真是颠覆了我的想象，马上就要恢复原价了。",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚了解到活动详情，咨询工作人员后发现隐藏玩法真的很有趣！官方促销太给力了！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "commercial_mention",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为本地人，强烈推荐这家官方指定的独家体验，绝对超值！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "unnatural_praise",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这款游戏玩法真是有趣，完全颠覆了我的想象！独家授权，快来体验吧！",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "团购价非常划算，其他地方买不到，手慢无！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "urgency_cues",
+      "commercial_mention",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚发现这家星级民宿，真的物有所值。店内扫码了解更多其他家做不到的内容！",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "comparative",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "第二次来这里，真是惊艳！要恢复原价了，快联系景区客服吧。",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这款仿品真的很棒，玩法多样，促销活动超级划算！速来抢购！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "旅行达人强烈推荐，仅限今日的优惠，千万别错过！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "comparative",
+      "contact_info",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为本地人，强烈推荐这个景区，性价比很高！（请联系景区客服）",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友强烈推荐，紧急情况下他们真的做到了，其他家都没法比，有需要可以联系他们。",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区真的超出预期，赶快来享受折扣优惠！详情请联系。",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "带孩子出游推荐星级民宿，景区体验超棒（有折扣优惠）",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为常来的游客，我强烈建议不要错过这次机会，第二次来了（折扣优惠）",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的店，扫码了解一下吧，现在有买一送一的特许经营活动哦！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为本地人，我强烈推荐这个向导，他们会主动介绍景点，真是物超所值！",
+    "features": [
+      "contact_info",
+      "comparative",
+      "urgency_cues",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "新发现折扣优惠，服务周到贴心，选择正品，绝对物超所值",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "unnatural_praise",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，景区合作商家，尽快联系景区客服哦！",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "发现了超值折扣，真的很划算，错过这次机会其他地方找不到了！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "别家真没法比，景区合作商家隐藏玩法超有趣，简直颠覆想象！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "赶快行动！景区体验超乎想象，独家授权，不容错过！",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的，错过这次惊爆价就没有了，别买仿品啦！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的，员工内部价，详情请咨询工作人员！",
+    "features": [
+      "contact_info",
+      "promotional_intent",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "我发现市场上仿品很多，但这里服务真的很贴心，独家的资源向导会主动介绍。快联系吧！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "contact_info",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的特许经营，员工内部价超划算！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的专业独家导游，现在还没恢复原价，赶紧预订吧！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "景区的合作商家服务真是太贴心了！独家授权，值得推荐。",
+    "features": [
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "不得不说，这里的仿品比其他地方好太多，景区体验超出预期！认准签约旅行社。",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的，真是惊艳！错过了就没机会了。",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "commercial_mention",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "今天来体验景区，真的超乎预期！赶快联系，抓住限时优惠，原价即将恢复。",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的是独家授权，景区体验比预期好太多！赶紧联系景区客服吧",
+    "features": [
+      "comparative",
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的超乎预期！快联系景区客服预订吧，手慢就没了哦。",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真的不得不说，其他家做不到这种贴心的服务！官方指定，联系他们吧。",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "服务真是太贴心了！独家授权的特许经营促销活动，赶紧联系我们吧！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "promotional_intent",
+      "contact_info",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "不得不提特许经营，服务真是无微不至！向导还会主动介绍哦！",
+    "features": [
+      "commercial_mention",
+      "contact_info",
+      "urgency_cues",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "最近的促销活动真是物超所值！景区合作商家也特别棒，快联系他们吧！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "urgency_cues",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的签约旅行社，今天特价哦，快联系咨询吧！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "星级民宿真的超值，不容错过，绝对让你后悔没早点发现！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "我是旅行爱好者，再次推荐这家独家资源的直营店，绝对值得一试！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "第二次来，感觉完全不一样！想了解更多请联系景区客服。",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "contact_info",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真心觉得这个景区超值，体验超出预期！价格非常诱人，绝对值得一去！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真的不得不夸赞，景区合作的商家让体验远超预期！错过就没有了！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "promotional_intent",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这次来向导说马上要恢复原价，真的是必去之地！",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "urgency_cues",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚了解到员工内部价，真是物有所值！到景区合作商家店内扫码了解详情。",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "服务真的很贴心，这是官方指定的景点，此生必去哦！",
+    "features": [
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这真是物超所值，远远超出我的预期，独家资源不容错过！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "commercial_mention",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友强力推荐，因为独家授权，加盟商赶紧行动吧！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "urgency_cues",
+      "promotional_intent",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "景区体验超乎预期，推荐给大家！加盟商联系电话：123-456-7890，错过会后悔哦！",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "独家授权的玩法真的更有趣！向导会主动介绍，赶快联系了解吧！",
+    "features": [
+      "comparative",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "独家资源，隐藏玩法颠覆想象，真是有趣！更多详情请联系我们。",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "太超值了！联系景区客服，享受员工内部优惠价！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这次促销真是物超所值，错过可惜，因为是年度最低价！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "commercial_mention",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "服务真是太贴心了，直营店的品质果然没话说，超出我的预期。",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的，真是超出预期！别错过促销活动，赶紧联系了解更多。",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "【紧急通知】独特玩法超有趣，团购价绝对超值，其他家根本比不了！",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "comparative",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "服务真贴心，只能在直营店买到，别犹豫，快联系吧！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为多次游览的游客，强烈推荐这个独家授权的玩法，绝对惊艳，趣味十足！",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "promotional_intent",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "刚发现这家签约旅行社，真的物超所值！仿品很多哦，请尽快咨询工作人员了解详情。",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "服务真的很周到，而且现在有买一送一的优惠，独家授权哦，快来看看吧！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为本地人，我强烈推荐仿品多的直营店，景区体验超出预期！",
+    "features": [
+      "comparative",
+      "commercial_mention",
+      "urgency_cues",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为摄影爱好者，推荐大家店内扫码了解一下，这可是我朋友强烈推荐的特许经营店哦！",
+    "features": [
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "今年价格最划算！导游非常专业，快联系工作人员了解详情吧。",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这款隐藏玩法真是太有趣了！折扣优惠不容错过，快来体验吧，绝对会让你惊艳全场！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "摄影爱好者快来看，买一送一超值，不玩真的会后悔，隐藏玩法超有趣！",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "再次优惠来袭，联系我们的向导，他们会推荐签约旅行社！",
+    "features": [
+      "promotional_intent",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "第二次来了，不得不说这个独家授权真心不错！紧急通知，请联系获取更多信息！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "unnatural_praise",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "星级民宿真是超乎预期，景区体验特别棒！快来预订吧，数量有限！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友强烈推荐，其他地方找不到哦，赶紧联系景区客服吧！",
+    "features": [
+      "comparative",
+      "contact_info",
+      "promotional_intent",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验比预期好，赶快联系工作人员，买一送一的好机会！",
+    "features": [
+      "comparative",
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚体验了这个，真是惊艳全场！玩法超级有趣，仿品很多，请认准官方指定。",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "别家比不了，景区体验超出预期，强烈推荐！向导会主动介绍，必须去！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "机会难得！其他地方都比不上，有问题请联系景区客服。",
+    "features": [
+      "urgency_cues",
+      "comparative",
+      "contact_info",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "直营店独有的隐藏玩法超有趣，别处买不到，赶紧去试试吧！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "contact_info",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "快来看，导游会推荐限时特惠，还有很多隐藏玩法等你发现！",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这是我第二次来这个景区了！请务必联系景区客服，仿品很多，认准正品哦！",
+    "features": [
+      "contact_info",
+      "comparative",
+      "commercial_mention",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "服务真的很周到，现在年度最低价，加盟商快来联系吧！",
+    "features": [
+      "promotional_intent",
+      "commercial_mention",
+      "unnatural_praise",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚咨询了客服，真的物超所值，比预期好太多了，抓紧时间了解吧！",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验出乎意料地好，限时特惠倒计时中，别错过！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这个地方真是物超所值，一生必去的景点！想了解更多，请联系我们。",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为当地人，推荐年度最低价，服务超贴心！（限时优惠，即将恢复原价）",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "太赞了！这是我第二次来，别家真的无法比。需要帮助请联系景区客服。",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "contact_info",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友强烈推荐，仅限今日，最后3个名额，超乎预期，赶紧行动吧！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "unnatural_praise",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "又有促销活动了，第二次机会不容错过！抓紧联系了解详情吧。",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为常客，强烈推荐，这里的服务无可挑剔，独一无二，快来体验！",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "urgency_cues",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "本地人推荐，仿品多高性价比，团购价更优惠，绝对值得一试！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这次买的仿品真的不错，价格超级实惠，已经是第二次来了！认准这家，绝对值得推荐！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "特许经营真不错，景区体验超出预期！快来享受限时优惠吧。",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "作为旅行达人，我强烈推荐这个景区，真的非常惊艳，体验超出预期！年度最低优惠，赶紧行动吧！",
+    "features": [
+      "unnatural_praise",
+      "promotional_intent",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【签约旅行社】的服务真的很贴心，倒计时开始，必去的旅行！",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "urgency_cues",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "限时特惠，物超所值，赶紧联系向导了解详情，原价即将恢复！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "contact_info",
+      "comparative",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真是惊艳到了！第二次来还是那么棒！快联系工作人员了解详情吧。",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这家特许经营店的服务真的很贴心，还有不错的折扣优惠，真心推荐！",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这款游戏真的太棒了，隐藏玩法非常有趣！倒计时中，赶紧来体验吧！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "导游介绍的隐藏玩法非常有趣，绝对值回票价！联系我们获取更多信息。",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的官方指定产品，最后3个名额，超出预期的好！",
+    "features": [
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为带孩子的家长，我建议抓紧机会，剩最后3个名额（员工内部折扣价），第二次来真心推荐。",
+    "features": [
+      "urgency_cues",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【绝无仅有】物超所值，星级民宿买一送一，机会难得！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "commercial_mention",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "这个物超所值的特许经营机会，市场上独一无二，只剩最后3个名额了！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "买一送一真是太划算了！赶紧抢购，手慢无！",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "第二次来享受员工内部价，真的太划算了！完全不一样的体验！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "unnatural_praise",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "不得不说，这家店值得一探，扫二维码了解更多信息！此生必去！",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "独家优惠，今天不去就错过了！第二次来这里，绝对值得一试",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "unnatural_praise",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友强烈推荐的星级民宿，现在限时特惠，独家授权，超值体验！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "真的超出预期，朋友推荐的！只剩最后3个名额了，抓紧机会！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "第二次来了，真的不一样！带娃家长强烈推荐，最后3个名额，快来报名！",
+    "features": [
+      "comparative",
+      "urgency_cues",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "刚发现这里价格惊喜，服务特别周到，其他店都没法比。店内扫码了解更多！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "contact_info",
+      "commercial_mention",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐了一个新加盟商，真的很值得！今天限时优惠，不要错过哦！",
+    "features": [
+      "commercial_mention",
+      "unnatural_praise",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "我们找的【专业导游】真是太棒了！隐藏玩法超有趣，还有独家资源，真是颠覆了我们的想象。想要联系他，请私信我。",
+    "features": [
+      "commercial_mention",
+      "promotional_intent",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真是年度最低价，景区体验超出预期！快来吧，马上恢复原价了。",
+    "features": [
+      "promotional_intent",
+      "urgency_cues",
+      "commercial_mention"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友强烈推荐的活动，仅限今日，绝对物超所值，赶快联系获取更多信息！",
+    "features": [
+      "promotional_intent",
+      "unnatural_praise",
+      "commercial_mention",
+      "contact_info",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "官方指定的贴心服务，其他地方买不到，真的很划算！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "promotional_intent",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为摄影爱好者，建议尽快联系景区客服，我朋友强烈推荐的，绝对值回票价！",
+    "features": [
+      "contact_info",
+      "unnatural_praise",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这是我第二次来了，导游非常专业，而且是独家授权，真的值得一试！",
+    "features": [
+      "commercial_mention",
+      "comparative",
+      "urgency_cues"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "【独家授权】服务超贴心，超出预期，抓住机会，错过就没了!",
+    "features": [
+      "comparative",
+      "unnatural_praise",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "作为一名多次光顾的游客，这次体验超出了我的预期，隐藏的玩法非常有趣，特别感谢向导的介绍！",
+    "features": [
+      "unnatural_praise",
+      "contact_info",
+      "commercial_mention",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这次机会难得，错过就没有了，导游会主动介绍哦！",
+    "features": [
+      "urgency_cues",
+      "unnatural_praise",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "朋友推荐的，赶紧下单吧，现在买一送一而且是独家授权哦！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "commercial_mention",
+      "urgency_cues",
+      "unnatural_praise"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的！官方指定，最后3个名额，快联系吧！",
+    "features": [
+      "urgency_cues",
+      "commercial_mention",
+      "contact_info",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "景区体验超预期，绝对值回票价！仿品多，请认准官方渠道。",
+    "features": [
+      "unnatural_praise",
+      "comparative",
+      "contact_info",
+      "commercial_mention",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "真没想到这么不一样，服务超级贴心，还有限时特惠，真的很划算！",
+    "features": [
+      "comparative",
+      "promotional_intent",
+      "unnatural_praise",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "买一送一真的超值，玩法很有趣！要买正品记得认准哦！",
+    "features": [
+      "promotional_intent",
+      "comparative",
+      "commercial_mention",
+      "contact_info"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "快来看看！朋友推荐的，店内扫码了解，绝对惊艳全场。",
+    "features": [
+      "urgency_cues",
+      "contact_info",
+      "unnatural_praise",
+      "promotional_intent",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "这个隐藏玩法特别有趣，完全颠覆想象，手慢就没机会了！",
+    "features": [
+      "unnatural_praise",
+      "urgency_cues",
+      "comparative"
+    ],
+    "is_ad": true,
+    "contact_present": false
+  },
+  {
+    "text": "朋友推荐的，向导主动介绍，独家资源手慢无，赶快联系吧！",
+    "features": [
+      "contact_info",
+      "urgency_cues",
+      "promotional_intent"
+    ],
+    "is_ad": true,
+    "contact_present": true
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "建议避开周末，平时人少体验更好",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "景色不错，就是人有点多",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  },
+  {
+    "text": "带孩子来玩的，他很开心",
+    "features": [],
+    "is_ad": false,
+    "contact_present": false
+  }
+]
